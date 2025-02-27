@@ -1,0 +1,19 @@
+{
+    "name": "@examples/html-ethers5",
+    "private": true,
+    "version": "3.5.7",
+    "scripts": {
+        "dev": "vite",
+        "dev:example": "vite --port 3011",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "@uniswap/permit2-sdk": "^1.2.0",
+        "@web3modal/ethers5": "3.5.7",
+        "ethers": "5.7.2",
+        "sweetalert2": "^11.10.6"
+    }
+}
